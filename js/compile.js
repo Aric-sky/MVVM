@@ -1,3 +1,4 @@
+// 实现一个指令解析器compile，对每个元素节点的指令进行扫描和解析，根据指令模板替换数据，以及绑定相应的更新函数。
 class Compile {
     constructor (el, vm) {
         this.el = this.isElementNode(el) ? el : document.querySelector(el);

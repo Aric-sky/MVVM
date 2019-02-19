@@ -1,3 +1,5 @@
+// 实现一个数据监听器Observer，能够对数据对象的所有属性进行监听，如有变动可拿到最新值，并通知订阅者。
+
 class Observer {
     constructor (data) {
         this.observe(data);
